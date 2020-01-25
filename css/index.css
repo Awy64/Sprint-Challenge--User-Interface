@@ -157,7 +157,7 @@ header {
 
 .navagation a {
     text-decoration: none;
-    color: gray;
+    color: black;
     font-size: .8em;
     padding: 1%;
 }
@@ -226,7 +226,7 @@ header {
 .main-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 
@@ -235,11 +235,18 @@ header {
     padding-bottom: 2%;
     border-bottom: 1px dotted black;
     margin-top: 5%;
+    margin-bottom: 3%;
+    /* padding: 2%; */
+}
+
+.about-container img {
+    margin-bottom: 2%;
 }
 
 .top_content {
     border-bottom: 1px dotted black;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
+    padding: 3%;
 }
 
 .button {
@@ -248,10 +255,16 @@ header {
     padding: 2%;
     border-radius:12px;
     font-size: .8em;
+    margin-top: 4%;
 }
 
 .box-text {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.last_content {
+    margin: 2% ;
+    margin-bottom: 4%;
 }
