@@ -222,3 +222,36 @@ header {
 .box10 {
     background-color: dodgerblue;
 }
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.about-container {
+    width: 48%;
+    padding-bottom: 2%;
+    border-bottom: 1px dotted black;
+    margin-top: 5%;
+}
+
+.top_content {
+    border-bottom: 1px dotted black;
+    padding-bottom: 3%;
+}
+
+.button {
+    border: 2px solid black;
+    width: 30%;
+    padding: 2%;
+    border-radius:12px;
+    font-size: .8em;
+}
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
