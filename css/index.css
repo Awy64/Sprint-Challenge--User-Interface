@@ -149,9 +149,10 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    margin: 2%;
+    margin-bottom: 5%;
     /* border: 1px solid red; */
     align-items: flex-end;
+    /* width:150% */
     
 }
 
@@ -159,16 +160,18 @@ header {
     text-decoration: none;
     color: black;
     font-size: .8em;
-    padding: 1%;
+    padding: 0 1%;
+    align-self: flex-end;
 }
 
 .navagation {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     /* border: 1px solid red; */
     width: 80%;
-    margin: 1%;
+    /* margin: 1%; */
+  
 }
 
 .header-con {
@@ -178,7 +181,7 @@ header {
 }
 .logo {
     /* border: 1px solid red; */
-    margin: 1%;
+    /* margin: 1%; */
     align-self:flex-start;
     padding-right: 3%;
 }
