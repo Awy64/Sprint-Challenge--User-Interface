@@ -144,3 +144,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 2%;
+    /* border: 1px solid red; */
+    align-items: flex-end;
+    
+}
+
+.navagation a {
+    text-decoration: none;
+    color: gray;
+    font-size: .8em;
+    padding: 1%;
+}
+
+.navagation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: 1%;
+}
+
+.header-con {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.logo {
+    /* border: 1px solid red; */
+    margin: 1%;
+    align-self:flex-start;
+    padding-right: 3%;
+}
